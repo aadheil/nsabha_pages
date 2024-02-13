@@ -1,0 +1,128 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logincontainer{
+    width: 75%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+      
+    /* flex-wrap: wrap; */
+
+   
+}
+
+.imagecontainer{
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    background-image: url('../images/nsabha2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.textcontainer{
+    width: 50%;
+    height: 100%;
+    /* background-color: orchid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.lableusername{
+    margin-top: 100px;
+    margin-bottom: 16px;
+    margin-left: -268px;
+    color:  rgba(176, 186, 195);
+}
+
+.inputforusername,.inputforpassword{
+    width: 60%;
+    height: 45px;
+    
+}
+.username,.password{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(176, 186, 195, 0.5);
+    padding: 10px;
+}
+
+.lablepassword{
+    margin-left: -268px;
+    color:  rgba(176, 186, 195);
+    margin-top: 20px;
+    margin-bottom: 16px;
+
+}
+
+.loginbuttondiv{
+    width: 30%;
+    height: 40px;
+    margin-top: 30px;
+}
+.loginbutton{
+    width: 100%;
+    height: 100%;
+    background-color: #001F33;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.forgotpassdiv{
+    color:  rgba(176, 186, 195);
+    margin-top: 20px;
+}
+
+/* styles for smaller screens */
+@media (max-width: 768px) {
+   
+    .logincontainer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .imagecontainer{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px 15px 0px 0px;
+        margin-bottom: 40px;
+
+        
+    }
+
+    .textcontainer{
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+
+    .lableusername,.lablepassword{
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    .forgotpassdiv{
+        margin-bottom: 50px;
+    }
+  
+    
+   
+  }
