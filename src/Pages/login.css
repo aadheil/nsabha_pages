@@ -83,14 +83,16 @@
     color: white;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 .forgotpassdiv{
     color:  rgba(176, 186, 195);
     margin-top: 20px;
+    cursor: pointer;
 }
 
 /* styles for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
    
     .logincontainer{
         display: flex;
